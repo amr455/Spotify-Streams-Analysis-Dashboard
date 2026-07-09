@@ -1,2 +1,247 @@
-# Spotify-Streams-Analysis-Dashboard
-The Spotify Streams Analysis Dashboard is an interactive Business Intelligence solution developed in Power BI to explore Spotify's most streamed songs, artists, albums, and audio characteristics.
+# 🎵 Spotify Streams Analysis Dashboard
+
+An interactive **Power BI dashboard** that analyzes Spotify's most streamed songs, artists, albums, and audio characteristics. The dashboard transforms raw streaming data into meaningful insights using Power BI, Power Query, and DAX.
+
+---
+
+## 📌 Project Overview
+
+The Spotify Streams Analysis Dashboard provides an in-depth analysis of Spotify streaming data, helping users understand artist performance, track popularity, streaming trends, and song characteristics.
+
+The project demonstrates the complete Business Intelligence workflow, including:
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Calculations
+- Dashboard Design
+- Interactive Visualizations
+- Data Storytelling
+
+---
+
+# 📊 Dashboard Preview
+
+## Summary Dashboard
+
+![Summary](Images/Summary.png)
+
+The Summary page presents an executive overview of Spotify data through KPIs and interactive charts.
+
+Features include:
+
+- Total Streams
+- Number of Tracks
+- Number of Albums
+- Average Energy
+- Average Danceability
+- Average Valence
+- Streams by Release Year
+
+---
+
+## Artists Analysis
+
+![Artists Analysis](Images/Artists%20Analysis.png)
+
+This page focuses on artist performance and popularity.
+
+Features include:
+
+- Top Streamed Artists
+- Artist Ranking
+- Track Performance
+- Music Mode Distribution
+- Release Year Trend
+- Artist Filters
+
+---
+
+## Cover Page
+
+![Cover](Images/Cover.png)
+
+A visually engaging landing page that displays album artwork and track information while allowing users to navigate through the dashboard.
+
+---
+
+# 🎯 Objectives
+
+- Analyze Spotify streaming performance.
+- Discover the most streamed artists.
+- Identify the most popular tracks.
+- Analyze streaming growth over time.
+- Explore relationships between audio features and popularity.
+- Build an interactive dashboard for decision-making.
+
+---
+
+# 📈 Dashboard Features
+
+### KPIs
+
+- 🎧 Total Streams
+- 🎵 Number of Tracks
+- 💿 Number of Albums
+- 🎤 Number of Artists
+- ⚡ Average Energy
+- 💃 Average Danceability
+- 😊 Average Valence
+
+### Visualizations
+
+- KPI Cards
+- Bar Charts
+- Line Charts
+- Scatter Plot
+- Donut Chart
+- Gauge Charts
+- Tables
+- Interactive Slicers
+- Dynamic Cards
+
+---
+
+# 🛠️ Tools & Technologies
+
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Microsoft Excel / CSV
+
+---
+
+# 📂 Dataset
+
+The dataset contains Spotify streaming information including:
+
+- Track Name
+- Artist
+- Album
+- Release Year
+- Streams
+- Danceability
+- Energy
+- Valence
+- BPM
+- Acousticness
+- Speechiness
+- Instrumentalness
+- Liveness
+- Spotify Charts
+- Apple Music Charts
+- Deezer Charts
+- Shazam Charts
+
+---
+
+# 📊 Key Insights
+
+- Spotify streams have increased dramatically in recent years.
+- The Weeknd, Taylor Swift, and Ed Sheeran are among the most streamed artists.
+- Songs with higher danceability and energy generally receive higher streaming numbers.
+- Most popular tracks have been released after 2015.
+- Modern music dominates Spotify's total streams.
+
+---
+
+# ⚙️ Data Preparation
+
+The dataset was processed using Power Query by:
+
+- Removing duplicates
+- Handling missing values
+- Correcting data types
+- Cleaning text fields
+- Creating calculated columns
+
+---
+
+# 📐 DAX Measures
+
+```DAX
+Total Streams =
+SUM('Spotify Dataset'[streams])
+
+Tracks Count =
+COUNT('Spotify Dataset'[track_name])
+
+Albums Count =
+DISTINCTCOUNT('Spotify Dataset'[album_name])
+
+Artists Count =
+DISTINCTCOUNT('Spotify Dataset'[artist(s)_name])
+
+Average Energy =
+AVERAGE('Spotify Dataset'[energy_%])
+
+Average Danceability =
+AVERAGE('Spotify Dataset'[danceability_%])
+
+Average Valence =
+AVERAGE('Spotify Dataset'[valence_%])
+```
+
+---
+
+# 🚀 Skills Demonstrated
+
+- Business Intelligence
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- Power Query
+- DAX
+- Interactive Dashboard Development
+- KPI Design
+- Data Visualization
+- Data Storytelling
+
+---
+
+# 📁 Repository Structure
+
+```
+Spotify-Streams-Analysis
+│
+├── Dashboard
+│   └── Spotify.pbix
+│
+├── Dataset
+│   └── spotify.csv
+│
+├── Images
+│   ├── Summary.png
+│   ├── Artists Analysis.png
+│   └── Cover.png
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 💡 Future Improvements
+
+- Connect to the Spotify API for real-time streaming data.
+- Add Genre Analysis.
+- Add Playlist Analysis.
+- Create Artist Recommendation Dashboard.
+- Implement Forecasting using Machine Learning.
+
+---
+
+# 👤 Author
+
+**Amr Rabie**
+
+**Junior Data Analyst**
+
+- 💼 LinkedIn: www.linkedin.com/in/amr-rabie-0547391b0
+- 📧 Email: *(Add your email)*
+- 🐙 GitHub: https://github.com/Amr-rabie7
+
+---
+
+## ⭐ If you found this project useful, don't forget to leave a star!

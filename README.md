@@ -12,7 +12,6 @@ The project demonstrates the complete Business Intelligence workflow, including:
 
 - Data Cleaning
 - Data Transformation
-- Data Modeling
 - DAX Calculations
 - Dashboard Design
 - Interactive Visualizations
@@ -117,29 +116,8 @@ A visually engaging landing page that displays album artwork and track informati
 
 ---
 
-# 📂 Dataset
 
-The dataset contains Spotify streaming information including:
 
-- Track Name
-- Artist
-- Album
-- Release Year
-- Streams
-- Danceability
-- Energy
-- Valence
-- BPM
-- Acousticness
-- Speechiness
-- Instrumentalness
-- Liveness
-- Spotify Charts
-- Apple Music Charts
-- Deezer Charts
-- Shazam Charts
-
----
 
 # 📊 Key Insights
 
@@ -163,79 +141,10 @@ The dataset was processed using Power Query by:
 
 ---
 
-# 📐 DAX Measures
 
-```DAX
-Total Streams =
-SUM('Spotify Dataset'[streams])
-
-Tracks Count =
-COUNT('Spotify Dataset'[track_name])
-
-Albums Count =
-DISTINCTCOUNT('Spotify Dataset'[album_name])
-
-Artists Count =
-DISTINCTCOUNT('Spotify Dataset'[artist(s)_name])
-
-Average Energy =
-AVERAGE('Spotify Dataset'[energy_%])
-
-Average Danceability =
-AVERAGE('Spotify Dataset'[danceability_%])
-
-Average Valence =
-AVERAGE('Spotify Dataset'[valence_%])
-```
 
 ---
 
-# 🚀 Skills Demonstrated
-
-- Business Intelligence
-- Data Cleaning
-- Data Transformation
-- Data Modeling
-- Power Query
-- DAX
-- Interactive Dashboard Development
-- KPI Design
-- Data Visualization
-- Data Storytelling
-
----
-
-# 📁 Repository Structure
-
-```
-Spotify-Streams-Analysis
-│
-├── Dashboard
-│   └── Spotify.pbix
-│
-├── Dataset
-│   └── spotify.csv
-│
-├── Images
-│   ├── Summary.png
-│   ├── Artists Analysis.png
-│   └── Cover.png
-│
-├── README.md
-└── LICENSE
-```
-
----
-
-# 💡 Future Improvements
-
-- Connect to the Spotify API for real-time streaming data.
-- Add Genre Analysis.
-- Add Playlist Analysis.
-- Create Artist Recommendation Dashboard.
-- Implement Forecasting using Machine Learning.
-
----
 
 # 👤 Author
 
@@ -243,9 +152,8 @@ Spotify-Streams-Analysis
 
 **Junior Data Analyst**
 
-- 💼 LinkedIn: www.linkedin.com/in/amr-rabie-0547391b0
-- 📧 Email: *(Add your email)*
-- 🐙 GitHub: https://github.com/Amr-rabie7
+- 💼 LinkedIn: https://www.linkedin.com/in/amrrabie445/
+- 📧 Email: amrdaana21@gmail.com
 
 ---
 

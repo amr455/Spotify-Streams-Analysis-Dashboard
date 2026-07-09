@@ -24,7 +24,8 @@ The project demonstrates the complete Business Intelligence workflow, including:
 
 ## Summary Dashboard
 
-![Summary](Images/Summary.png)
+![Summary]<img width="1920" height="1079" alt="Screenshot_2" src="https://github.com/user-attachments/assets/dcf78e40-b099-4d9b-9836-bfed6ddc2eb3" />
+
 
 The Summary page presents an executive overview of Spotify data through KPIs and interactive charts.
 

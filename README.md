@@ -24,7 +24,9 @@ The project demonstrates the complete Business Intelligence workflow, including:
 
 ## Summary Dashboard
 
-![Summary]<img width="1920" height="1079" alt="Screenshot_2" src="https://github.com/user-attachments/assets/dcf78e40-b099-4d9b-9836-bfed6ddc2eb3" />
+![Summary]
+<img width="1280" height="723" alt="Screenshot_4" src="https://github.com/user-attachments/assets/8c123078-16ed-47b6-a522-bc9d52a24bd2" />
+
 
 
 The Summary page presents an executive overview of Spotify data through KPIs and interactive charts.
@@ -43,7 +45,8 @@ Features include:
 
 ## Artists Analysis
 
-![Artists Analysis](Images/Artists%20Analysis.png)
+![Artists Analysis]<img width="1346" height="764" alt="Screenshot_3" src="https://github.com/user-attachments/assets/88948df6-ff95-44ff-9112-bf3a86459d7a" />
+
 
 This page focuses on artist performance and popularity.
 
@@ -60,7 +63,8 @@ Features include:
 
 ## Cover Page
 
-![Cover](Images/Cover.png)
+![Cover]<img width="1920" height="1079" alt="Screenshot_2" src="https://github.com/user-attachments/assets/7bd28de7-d307-4082-a95d-753cccd40bb3" />
+
 
 A visually engaging landing page that displays album artwork and track information while allowing users to navigate through the dashboard.
 
